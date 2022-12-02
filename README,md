@@ -1,0 +1,24 @@
+#Title
+Javascript-code-challenge
+
+#Description
+Javascript program containing three separate js files linked
+to a html file. The application in the index.js file prompts
+the user to input student marks, the application in the index2.js
+inputs the speed of a car and the application in the index3.js
+calculates an individual’s Net Salary by getting the inputs of
+basic salary and benefits.
+
+#How to install and Run the Project
+you can install the project by clonning it to your local machine
+by use of git clone <url>, then cd into the projects directory and
+then open it on Vs code. . you can run the project using node,
+eg node index.js, node index2.js.
+
+#Author
+victor
+
+#License
+MIT
+
+
