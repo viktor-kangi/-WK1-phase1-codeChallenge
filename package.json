@@ -1,0 +1,25 @@
+{
+  "name": "code-challenge",
+  "version": "1.0.0",
+  "description": "Moringa phase-1-week-1-coding-challenge",
+  "main": "netSalaryCalculator.js",
+  "scripts": {
+    "test": "node netSalaryCalculator"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktor-kangi/code-challenge.git"
+  },
+  "keywords": [
+    "if...else",
+    "functions",
+    "recursion",
+    "eventListeners"
+  ],
+  "author": "victor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viktor-kangi/code-challenge/issues"
+  },
+  "homepage": "https://github.com/viktor-kangi/code-challenge#readme"
+}

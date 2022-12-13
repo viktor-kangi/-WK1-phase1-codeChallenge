@@ -4,18 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
-    <link rel="stylesheet" href="index.js">
-    <link rel="stylesheet" href="index2.js">
-    <link rel="stylesheet" href="index3.js">
+    <link rel="stylesheet" href="./style.css">
+    <title>Phase-1-week-1-code-challenges</title>
 </head>
 <body>
-    <script src="js/index.js">
-    </script>
-    <script src="js/index2.js">
-    </script>
-    <script src="js/index3.js">
-    </script>
+
+    <!--Student grade generator first challenge Div-->
+    <div>
+        <h1>Challenge 1: Student Grade Generator (Toy Problem)</h1>
+        <p>Please press button below to prompt for input student marks:</p>
+        
+        <!--Clicking will bring a prompt for marks input-->
+        <button id="studentMarksPrompt">Student Marks Prompt</button>
+        
+        <!--Shows the grade equivalent to the marks input-->
+        <p id="result"></p>
+    </div>
+
+
+    <!--Speed detector second challenge div-->
+    <div>
+        <h1>Challenge 2: Speed Detector (Toy Problem)</h1>
+        <p>Please input speed of car:</p>
+
+        <!--inputs the speed-->
+        <input type="number" id="speed" placeholder="Enter speed">
+
+        <!--Submits the speed input when button is clicked-->
+        <button id="speedSubmit">Submit</button>
+
+        <!---Shows the output depending on conditions met from speed input-->
+        <p id="speedReview"></p>
+    </div>
     
+
+<!--Net salary calculator third challenge div-->
+    <div>
+        <h1>Challenge 3: Net Salary Calculator (Toy Problem)</h1>
+        <p>calculate an individual's Net Salary:</p>
+
+        <!--input gross salary-->
+        <input type="number" id="salary" placeholder="Enter Gross salary">
+
+        <!--Submit the gross salary input when button is clicked-->
+        <button id="salarySubmit">Submit</button>
+
+        <!--Output the gross salary, NSSF, NHIF, PAYEE and net Salary-->
+        <p id="gross"></p>
+        <p id="nssf"></p>
+        <p id="nhif"></p>
+        <p id="paye"></p>
+        <p id="net"></p>
+    </div>
+
+<script src="./studentGradeGenerator.js"></script>
+<script src="./speedDetector.js"></script>
+<script src="./netSalaryCalculator.js"></script>    
 </body>
 </html>
